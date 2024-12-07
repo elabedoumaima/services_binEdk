@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/services_binEdk/static/css/main.790b8fa9.css",
+    "main.js": "/services_binEdk/static/js/main.b5cd13aa.js",
+    "static/media/Img2.png": "/services_binEdk/static/media/Img2.5defcedf6aa024b6334e.png",
+    "static/media/comF.png": "/services_binEdk/static/media/comF.22d110b58688832419ff.png",
+    "static/media/Img1.png": "/services_binEdk/static/media/Img1.80064e6f881ded4b7cf8.png",
+    "static/media/Img4.png": "/services_binEdk/static/media/Img4.68f43e70827a86dcc79a.png",
+    "static/media/Img3.png": "/services_binEdk/static/media/Img3.2d5f89309be5479de7fe.png",
+    "static/media/1524725587-tipsa-1.webp": "/services_binEdk/static/media/1524725587-tipsa-1.da668f0341a00fbc2a1c.webp",
+    "static/media/comB.jpg": "/services_binEdk/static/media/comB.78cb54756d7e72199adf.jpg",
+    "static/media/comH.jpg": "/services_binEdk/static/media/comH.4a65a4080452471e3a36.jpg",
+    "static/media/comC.jpg": "/services_binEdk/static/media/comC.4ae9be052ed7c36fe9ad.jpg",
+    "static/media/comD.jpg": "/services_binEdk/static/media/comD.5ae5015a020ef05c9e44.jpg",
+    "static/media/comG.jpg": "/services_binEdk/static/media/comG.caa78734f5ebd30e9ee7.jpg",
+    "static/media/comE.jpg": "/services_binEdk/static/media/comE.82d1c31687dc55a07248.jpg",
+    "static/media/comA.jpg": "/services_binEdk/static/media/comA.73d314a1eff87e68a0c9.jpg",
+    "static/media/comJ.jpg": "/services_binEdk/static/media/comJ.f61b600771c4be74a10a.jpg",
+    "static/media/comI.jpg": "/services_binEdk/static/media/comI.4a2d3676230852b08ab9.jpg",
+    "static/media/slick.svg": "/services_binEdk/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/services_binEdk/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/services_binEdk/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/services_binEdk/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/services_binEdk/index.html",
+    "main.790b8fa9.css.map": "/services_binEdk/static/css/main.790b8fa9.css.map",
+    "main.b5cd13aa.js.map": "/services_binEdk/static/js/main.b5cd13aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.790b8fa9.css",
+    "static/js/main.b5cd13aa.js"
+  ]
+}
