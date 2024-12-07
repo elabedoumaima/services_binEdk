@@ -1,0 +1,100 @@
+.welcomeTop{
+    text-align: center;
+    background: black;
+    height: 36vh;
+    padding-top: 3%;
+    color: rgb(161, 119, 88);
+    display: flex;
+    justify-content: space-between;
+}
+.welcomeButtom {
+    width: 40%;
+}
+.welcomeTop img{
+    height: 36vh;
+    width: 60%;
+    margin-top: -3%;
+}
+.welcomeButtom h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.welcomeButtom p{
+    color: rgb(198, 195, 195);
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.welcomeButtom h3{
+    color: white;
+    background-color: rgb(161, 119, 88);
+    margin-top: 30px;
+    font-weight: 900;
+    padding: 23px;
+}
+@media screen and (max-width:768px) {
+    .welcomeTop{
+        height: auto;
+    }
+    .welcomeButtom {
+        width: 50%;
+        padding-top: 50px;
+    }
+    .welcomeTop img{
+        height: auto;
+        width: 50%;
+    }
+    .welcomeButtom h1{
+        font-weight: 900;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .welcomeButtom p{
+        font-size: 15px;
+        margin: auto;
+    }
+    .welcomeButtom h3{
+        margin-top: 60px;
+        font-weight: 600;
+        padding: 20px;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .welcomeTop{
+        height: 47vh;
+        max-width: 95%;
+        margin: auto;
+        display: block;
+    }
+    .welcomeButtom {
+        width: 100%;
+        padding-top: 10px;
+        margin: auto;
+    }
+    .welcomeTop img{
+        height: 24.5vh;
+        width: 100%;
+    }
+    .welcomeButtom h1{
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .welcomeButtom p{
+        font-size: 15px;
+        margin: auto;
+        width:95% ;
+    }
+    .welcomeButtom h3{
+        margin-top: 30px;
+        font-weight: 600;
+        padding: 20px;
+        padding-top: 7px;
+        font-size: 15px;
+    }
+
+
+}

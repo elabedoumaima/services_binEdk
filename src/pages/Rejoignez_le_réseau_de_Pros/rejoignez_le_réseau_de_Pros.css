@@ -1,0 +1,66 @@
+.RejoignezTop{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+.RejoignezButtom{
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.RejoignezText{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.RejoignezText h1{
+    color: rgb(161, 119, 88);
+    font-family: initial;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.RejoignezText p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.RejoignezButtom input,select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    padding: 10px 15px 10px 14px;
+}
+.RejoignezButtom textarea{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    padding: 10px 15px 10px 14px;
+    resize: none;
+}
+.RejoignezButtom label{
+    font-size: 15px;
+}
+.RejoignezButtom select option{
+    font-size: 16px;
+    color: black;
+}
+.RejoignezButtom button {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 15px 10px 14px;
+    background-color: rgb(161, 119, 88);
+    color: white;
+    font-weight: 900;
+    
+}

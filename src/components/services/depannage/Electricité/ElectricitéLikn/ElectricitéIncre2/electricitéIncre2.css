@@ -1,0 +1,99 @@
+.electricitéIncre2Incre2Top{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.electricitéIncre2Incre2Top h1{
+    font-size: 25px;
+   color: rgb(132, 161, 176);
+   margin-bottom: 50px;
+   font-weight: 900;
+   position: relative;
+}
+.electricitéIncre2Incre2Top h1::after{
+    content: '';
+    background:rgb(161, 119, 88) ;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.electricitéIncre2Incre2Top p{
+    margin-bottom: 10px;
+    font-size: 17px;
+
+}
+.electricitéIncre2Incre2Top hr{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}    
+
+.electricitéIncre2Incre2Top .electricitéIncre2displayIncre2 {
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+.electricitéIncre2displayIncre2 p{
+   max-width: 60%;
+   margin-top: 5px;
+}
+.electricitéIncre2displaybuttonIncre2{
+    display: flex;
+    max-width: 40%;
+}
+.electricitéIncre2displaybuttonIncre2 button{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.electricitéIncre2displaybuttonIncre2 p{
+    padding: 10px;
+    margin-top: -6px;
+}
+.electricitéIncre2buttonIncre{
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(132, 161, 176);
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+    outline: none;
+}
+
+@media screen and (max-width:500px){
+    .electricitéIncre2Incre2Top{
+        max-width: 100%;
+    }
+    .electricitéIncre2Incre2Top .electricitéIncre2displayIncre2 {
+        display: flex;
+        max-width: 90%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .electricitéIncre2displayIncre2 p{
+       max-width: 60%;
+       margin-top: 5px;
+    }
+    .electricitéIncre2displaybuttonIncre2{
+        display: flex;
+        max-width: 40%;
+    }
+
+    .electricitéIncre2buttonIncre{
+        width: 70%;
+        margin-top: 20px;
+        
+    }
+}

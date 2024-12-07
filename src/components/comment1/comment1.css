@@ -1,0 +1,351 @@
+/*********************************************** pour les clients *************************************************/
+.comment1Top{
+    height: auto;
+    padding-top: 8%;
+}
+.containerComment{
+    max-width: 60%;
+    margin: auto;
+}
+.flexSBComment{
+    display: flex;
+}
+.rowComment{
+    width: 50%;
+}
+.comment1Top .comment1Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.comment1ListClient h1{
+    font-size: 35px;
+    font-weight: 900;
+    color:rgb(161, 119, 88) ;
+}
+.comment1Items{
+    margin-top: 10px;
+    width: 95%;
+}
+.comment1Item{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.img{
+    width: 120px;
+}
+.comment1Top img{
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+}
+.comment1Top .comment1Item h3{
+    font-size: 20px;
+    margin-bottom:12px ;
+}
+.comment1Top .comment1Item:hover{
+    background-color: rgb(161, 119, 88);
+    color:  #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
+}
+
+/*********************************************** pour les ouvrier *************************************************/
+.comment1Topouvrier{
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.containerCommentouvrier{
+    max-width: 60%;
+    margin: auto;
+}
+.flexSBCommentouvrier{
+    display: flex;
+}
+.rowCommentouvrier{
+    width: 50%;
+}
+.comment1Topouvrier .comment1Imageouvrier img{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+.comment1ListClientouvrier h1{
+    font-size: 35px;
+    font-weight: 900;
+    color:black ;
+}
+.comment1Itemsouvrier{
+    margin-top: 10px;
+    width: 100%;
+}
+.comment1Itemouvrier{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.imgouvrier{
+    width: 120px;
+}
+.comment1Topouvrier img{
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+}
+.comment1Topouvrier .comment1Itemouvrier h3{
+    font-size: 20px;
+    margin-bottom:12px ;
+}
+.comment1Topouvrier .comment1Itemouvrier:hover{
+    background-color: black;
+    color:  #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
+}
+
+
+@media screen and (max-width:768px) {
+    /* les clients */
+    .containerComment{
+        max-width: 85%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .comment1Top .comment1Image img{
+        width: 100%;
+        height: 100%;
+    }
+    .comment1ListClient h1{
+        font-size: 25px;
+    }
+    .comment1Item{
+        padding: 10px;
+    }
+    /******************************* les ouvrier *************************/
+    .containerCommentouvrier{
+        max-width: 85%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .comment1Topouvrier .comment1Imageouvrier img{
+        width: 95%;
+        height: 100%;
+    }
+    .comment1ListClientouvrier h1{
+        font-size: 25px;
+    }
+    .comment1Itemouvrier{
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .containerComment{
+        max-width: 95%;
+        margin: auto;
+    }
+    .flexSBComment{
+        display: block;
+    }
+    .rowComment{
+        width: 100%;
+    }
+    .comment1Top .comment1Image img{
+        width: 100%;
+    }
+    .comment1ListClient h1{
+        font-size: 25px;
+    }
+    .comment1Items{
+        margin-top: 10px;
+        width: auto;
+    }
+    .comment1Item{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: flex;
+    }
+    .comment1Top img{
+        width: 80px;
+        height: 70px;
+        object-fit: cover;
+    }
+    .comment1Top .comment1Item h3{
+        font-size: 15px;
+        margin-bottom:8px ;
+    }
+    .img{
+        width: 90px;
+    }
+    /******************* les ouvries ***********************/
+    .containerCommentouvrier{
+        max-width: 95%;
+        margin: auto;
+    }
+    .flexSBCommentouvrier{
+        display: block;
+    }
+    .rowCommentouvrier{
+        width: 100%;
+    }
+    .comment1Topouvrier .comment1Imageouvrier img{
+        width: 100%;
+    }
+    .comment1ListClientouvrier h1{
+        font-size: 25px;
+    }
+    .comment1Itemsouvrier{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .comment1Itemouvrier{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: flex;
+        
+    }
+    .comment1Topouvrier img{
+        width: 80px;
+        height: 70px;
+        object-fit: cover;
+    }
+    .comment1Topouvrier .comment1Itemouvrier h3{
+        font-size: 15px;
+        margin-bottom:8px ;
+    }
+    .imgouvrier{
+        width: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.features {
+    margin-block: 10px 80px;
+}
+
+.features-card {
+    position: relative;
+    background-color:hsl(0, 0%, 95%);
+    padding: 20px;
+    padding-block-start: 50px;
+    margin-block-start: 50px;
+    box-shadow:  3px 4px 30px hsla(0, 0%, 53%, 0.1);
+    transition: 0.25s ease;
+    height: 200px;
+}
+
+.features-card:hover {
+    background-color: rgb(62, 184, 143);
+}
+
+.features-card .card-number {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transform: translateY(-50%);
+    background-color: hsl(0, 0%, 93%);
+    font-size:2.2rem;
+    font-weight:600;
+    padding-block: 5px;
+    min-width: 70px;
+    text-align: center;
+    border-radius:  5px;
+    transition: 0.25s ease;
+    color: rgb(109, 114, 112);
+}
+
+.features-card:hover .card-number {
+    color:  hsl(145, 63%, 42%);
+}
+.features-card .card-title {
+    font-size: 20px;
+    margin-block-end: 20px;
+}
+.features-card :is(.card-title, .card-text) {
+    transition: 0.25s ease;
+}
+.features-card:hover :is(.card-title, .card-text) {
+    color: hsl(0, 0%, 100%);
+}
+.features-card p{
+    color: rgb(114, 113, 113);
+    font-size: 15px;
+}
+
+.containerComment1{
+    padding-inline: 20px;
+}
+
+.sectionComment1 {
+    padding-block: 20px;
+}
+.h4-section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 30px;
+    color: rgb(115, 120, 120);
+    font-family: 600;
+}
+
+.h4-section-p{
+    margin-right: 10px;
+    color: rgb(63, 145, 252);
+}
+.h4-section span{
+    color: rgb(62, 184, 143);
+}
+.text-center {
+    text-align: center;
+    color: rgb(115, 120, 120);
+    font-weight: 700;
+    font-size: 35px ;
+}
+.grid-list {
+    display: grid;
+    gap: 20px;
+}
+@media (min-width: 575px) {
+    .containerComment1 {
+      max-width: 540px;
+      width: 100%;
+      margin-inline: auto;
+    }  
+}
+@media (min-width: 768px) {
+    .containerComment1 { max-width: 720px; }
+    .section-text.text-center {
+      max-width: 50ch;
+      margin-inline: auto;
+    }
+    .features .grid-list { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 992px) {
+    .containerComment1 { max-width: 960px; }
+    .features .grid-list { grid-template-columns: repeat(4, 1fr); }
+}
+@media (min-width: 1200px) {
+    .containerComment1 { max-width: 80%; }
+  
+  } */

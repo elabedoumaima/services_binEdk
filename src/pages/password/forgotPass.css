@@ -1,0 +1,210 @@
+.ForgotForm{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.FormForgot{
+    height: 300px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.FormForgot h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.FormForgot .InputForm{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+}
+.FormForgot input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 15px 33px 15px 15px;
+}
+.FormForgot input::placeholder {
+    color:rgb(125, 126, 124) ;
+}
+.FormForgot .iconFormForgot {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: rgb(125, 126, 124);
+}
+.FormForgot button {
+    width: 100%;
+    background: rgb(161, 119, 88);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+    margin-top: -10px;
+    font-weight: 700;
+}
+.FormForgot .ForgotLink p {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #575656;
+}
+
+.ForgotLink p a {
+    color: rgb(125, 126, 124);
+    text-decoration: none;
+    font-weight: 600;
+}
+.ForgotLink p a:hover {
+    text-decoration: underline;
+    color: rgb(161, 119, 88);
+}
+
+
+
+
+
+
+@media  screen and (max-width:768px) {
+    .ForgotForm {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .FormForgot {
+        height: 350px;
+        padding: 30px 80px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+    .FormForgot .iconFormForgot {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        font-size: 12px;
+        color: rgb(125, 126, 124);
+    }
+}
+
+@media (min-width:501px) and (max-width:643px){
+    .ForgotForm {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .FormForgot {
+        height: 310px;
+        padding: 20px 30px; 
+        border: 0;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    .FormForgot h1{
+        font-size: 27px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .FormForgot .InputForm {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        margin: 10px 0;
+    }
+    
+    .FormForgot input {
+        width: 100%;
+        height: 25px;
+        outline: none;
+        border-radius: 5px;
+        font-size: 13.4px;
+        padding: 10px 30px 10px 10px;
+    }
+    
+    .FormForgot input::placeholder {
+        color: #6f6f6f;
+    }
+    
+    .FormForgot .iconFormForgot {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 12px;
+    }
+    .FormForgot button {
+        height: 25px;
+        cursor: pointer;
+        font-size: 13px;
+        margin-top: -10px;
+        font-weight: 600;
+    }
+    .FormForgot .ForgotLink p {
+        font-size: 11.5px;
+        text-align: justify;
+        margin: -5px 0 -4px;
+        margin-left: 10px;
+    }
+
+}
+@media screen and (min-width:320px) and (max-width:500px)  {
+    .FormForgot  {
+        height: 250px;
+        width: auto;
+    }
+    .FormForgot .ForgotLink p {
+        font-size: 9px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .FormForgot input::placeholder {
+        font-size: 11px;
+    }
+    .FormForgot .InputForm {
+        height: 23px;
+        margin: 0px 0;
+    }
+    .FormForgot input{
+        width: 100%;
+        height: 23px;
+        padding: 10px 28px 10px 10px;
+    }
+    .FormForgot button {
+        height: 23px;
+        cursor: pointer;
+        font-size: 10px;
+        color: white;
+        padding-top: 0px;
+        font-weight: 500;
+    }
+    .FormForgot h1{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    
+    
+}
+
+

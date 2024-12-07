@@ -1,0 +1,269 @@
+/*--------head------------*/
+.head {
+  padding: 20px 0;
+}
+
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+  color: black;
+}
+
+.logo span {
+  color: rgb(161, 119, 88);
+}
+
+.head .icon {
+  margin-left: 10px;
+}
+
+
+.icon {
+  width: 50px;
+  font-size: 30px !important;
+  height: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgb(64, 200, 64);
+  color: rgba(255, 255, 255, 0.74);
+  /* background-color: rgba(255, 255, 255, 0.74); */
+  /* color: rgb(64, 200, 64); */
+  transition: 0.5s;
+}
+
+
+
+/*--------header------------*/
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 30px;
+}
+
+header .nav {
+  display: flex !important;
+}
+
+header li {
+  margin-right: 40px;
+}
+
+header ul {
+  padding: 30px 20px;
+}
+
+header ul li a {
+  color: white;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: rgb(161, 119, 88);
+  padding-left: 8px;
+}
+
+.toggle {
+  padding: 10px 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin: 20px 10px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+  cursor: pointer;
+  display: none;
+}
+
+.start {
+  background-color: rgb(161, 119, 88);
+  padding: 30px 70px;
+  color: #fff;
+  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+/*--------header------------*/
+@media screen and (max-width: 768px) {
+  .start {
+    clip-path: none;
+  }
+
+  header {
+    margin: 0;
+    background-color: rgb(161, 119, 88);
+    position: relative;
+  }
+
+  header ul.flexSB {
+    display: none;
+  }
+
+  header ul li {
+    margin-bottom: 20px;
+  }
+  header ul li a:hover {
+    color: black;
+    font-weight: 700;
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: rgb(161, 119, 88);
+    z-index: 1;
+  }
+
+  .head {
+    padding: 15px 0px 0px;
+  }
+
+  .logo h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: black;
+  }
+
+  .head .icon {
+    margin-left: 5px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:643px) {
+  .start {
+    clip-path: none;
+    font-size: 13px;
+    padding: 15px 90px 15px;
+  }
+
+  header {
+    margin: 0;
+    background-color: rgb(161, 119, 88);
+    position: relative;
+  }
+
+  header ul.flexSB {
+    display: none;
+  }
+
+  header ul li {
+    margin-bottom: 10px;
+  }
+  header ul li a:hover {
+    color: black;
+    font-weight: 700;
+  }
+
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    background-color: rgb(161, 119, 88);
+    z-index: 1;
+  }
+
+  .head {
+    padding: 10px 0px 0px;
+  }
+
+  .logo h1 {
+    font-size: 25px;
+  }
+
+  .head .icon {
+    margin-left: 2px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 6px;
+  }
+
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+  .start {
+    clip-path: none;
+    padding: 25px;
+  }
+  header {
+    margin: 0;
+    background-color: rgb(161, 119, 88);
+    position: relative;
+  }
+  header ul.flexSB {
+    display: none;
+  }
+  header ul li {
+    margin-bottom: 20px;
+  }
+  header ul li a:hover {
+    color: black;
+    font-weight: 700;
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: rgb(161, 119, 88);
+    z-index: 1;
+  }
+  .head {
+    padding: 10px 0px 15px;
+  }
+  .logo h1 {
+    font-size: 23px;
+  }
+  .head .icon {
+    margin-left: 10px;
+  }
+  .icon {
+    width: 23px;
+    height: 23px;
+    line-height: 22px;
+    margin-top: 8px;
+  }
+}

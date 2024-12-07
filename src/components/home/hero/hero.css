@@ -1,0 +1,158 @@
+.hero {
+  background-size: cover;
+  background-image: url('/public/1524725587-tipsa-1.webp');
+  filter: brightness(90%);
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 10%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.containerHero{
+  max-width: 50%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.row {
+  width: 100%;
+}
+
+.row h2 {
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.row h1 {
+  font-size: 45px;
+  margin: 10px 0;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.row p {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.row p b {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    height: auto;
+  }
+   
+  .hero {
+    border-radius: 0;
+    padding-top: 35%;
+    height: auto;
+  }
+  .containerHero{
+    max-width: 100%;
+    margin: auto;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+
+  .hero .row {
+    width: 100%;
+  }
+  .row h2{
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .row h1 {
+    font-size: 45px;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+
+  .row p {
+    line-height: 40px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width:501px) and (max-width:642px) {
+  .margin {
+    height: 30vh;
+  }
+
+  .hero {
+    box-shadow: none;
+    padding-top: 40%;
+    height: 70vh;
+  }
+
+  .hero .row {
+    width: 110%;
+  }
+
+  .row h2 {
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .row h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+
+  .row p {
+    line-height: 20px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+  .margin {
+    height: 30vh;
+  }
+  .hero {
+    border-radius: 0;
+    padding-top: 45%;
+    height: 69vh;
+    
+  }
+  .containerHero{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .hero .row {
+    width: 100%;
+    margin: auto;
+  }
+  .row h2 {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .row h1 {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 5px 0;
+    text-transform: capitalize;
+  }
+
+  .row p {
+    line-height: 10px;
+    font-size: 13px;
+  }
+}

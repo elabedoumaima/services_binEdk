@@ -1,0 +1,65 @@
+.ClimatisationLink1{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.ClimatisationLink1 h1{
+    font-size: 25px;
+   color: rgb(132, 161, 176);
+   margin-bottom: 50px;
+   font-weight: 900;
+   position: relative;
+}
+.ClimatisationLink1 h1::after{
+    content: '';
+    background:rgb(161, 119, 88) ;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ClimatisationLink1 p{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.ClimatisationLink1 hr{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.ClimatisationLinkSecond{
+    margin-bottom: 90px;
+    
+}
+.ClimatisationLinkSecond .linkTopcliClimatisation{
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 5px;
+    color: rgb(161, 119, 88);
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px  rgba(26, 17, 17, 0.237);
+    line-height: 60px;
+    border: 1px solid rgb(161, 119, 88);
+}
+@media screen and (max-width:500px){
+    .ClimatisationLink1{
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .ClimatisationLinkSecond .linkTopcliClimatisation{
+        padding: 10px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+}

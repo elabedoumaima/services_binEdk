@@ -1,0 +1,120 @@
+.EnvironTop {
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.EnvironToph1 h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.EnvironDescription {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.DescriptionSite h1 {
+    margin-bottom: 40px;
+    color: rgb(132, 161, 176);
+}
+
+.EnvironDescription video {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.EnvironDescription .DescriptionSite {
+    width: 45%;
+}
+
+.EnvironTop hr {
+    border: 2px solid rgb(161, 119, 88);
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.qualityIquipe h1 {
+    margin-bottom: 40px;
+    color: rgb(132, 161, 176);
+}
+
+.qualityIquipeTop {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.qualityIquipe {
+    max-width: 40%;
+}
+
+.qualityIquipeImage {
+    max-width: 55%;
+}
+
+.qualityIquipeImage img {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+
+@media screen and (max-width:500px) {
+    .EnvironTop {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .EnvironDescription {
+        display: block;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .EnvironDescription video {
+        width: 100%;
+    }
+
+    .EnvironDescription .DescriptionSite {
+        width: 100%;
+        text-align: justify;
+
+    }
+
+    .qualityIquipeTop {
+        max-width: 100%;
+        display: block;
+        margin-top: 0px;
+    }
+
+    .EnvironTop hr {
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .qualityIquipe {
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    .qualityIquipeImage {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .qualityIquipeImage img {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.189);
+    }
+
+}

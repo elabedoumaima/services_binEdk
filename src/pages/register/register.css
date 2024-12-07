@@ -1,0 +1,92 @@
+.RegisterTop{
+    max-width: 40%;
+    margin: auto;
+}
+.RegisterForm{
+    height: auto;
+    width: 100%;
+    padding: 30px 30px;
+    border-radius: 5px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.RegisterForm h1{
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.RegisterForm .RegisterInput{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+.RegisterInput input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 15px 45px 15px 15px;
+}
+.RegisterInput input::placeholder {
+    color: rgb(125, 126, 124) ;
+}
+.RegisterInput .iconsRegister {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: rgb(125, 126, 124);
+}
+.RegisterForm button {
+    width: 100%;
+    background: rgb(161, 119, 88);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    padding-top: 5px;
+    margin-top: -10px;
+    font-weight: 700;
+}
+.LoginLink  p{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: #575656;
+}
+
+.LoginLink p a {
+    color: rgb(125, 126, 124);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.LoginLink p a:hover {
+    text-decoration: underline;
+    color: rgb(161, 119, 88);
+}
+
+
+
+
+@media  screen and (max-width:768px) {
+    .RegisterTop{
+        max-width: 70%;
+        margin: auto;
+    }
+}
+@media  screen and (max-width:500px) {
+    .RegisterTop{
+        max-width: 80%;
+        margin: auto;
+    }
+}

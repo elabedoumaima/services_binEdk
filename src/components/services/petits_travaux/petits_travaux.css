@@ -1,0 +1,58 @@
+.petits_travaux_top {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.petits_travaux_top h3 {
+    font-size: 25px;
+    color: rgb(161, 119, 88);
+    margin-bottom: 80px;
+
+}
+
+.petits_travaux_secend {
+    margin-bottom: 100px;
+}
+
+.petits_travaux_secend .linkTopPetits {
+    padding: 35px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width:500px) {
+    .petits_travaux_top {
+        text-align: center;
+        max-width: 85%;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .petits_travaux_top h3 {
+        font-size: 25px;
+        color: rgb(161, 119, 88);
+        margin-bottom: 40px;
+
+    }
+    .petits_travaux_secend {
+        margin-bottom: 4px;
+    }
+    .petits_travaux_secend .linkTopPetits {
+        padding: 15px;
+        display: block;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-left: 0px;
+        font-weight: 600;
+        background-color: hsl(0, 0%, 95%);
+    }
+}

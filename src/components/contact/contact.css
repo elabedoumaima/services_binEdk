@@ -1,0 +1,246 @@
+.contactForm {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-size: cover;
+    background-image: url('/public/1524725587-tipsa-1.webp');
+    background-attachment: fixed;
+}
+.titleContact {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    background: rgb(161, 119, 88);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.contactForm form {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.input_Contact {
+    margin-bottom: 10px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.input_Contact input {
+    width: 100%;
+    padding: 10px 45px 10px 14px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.input_Contact textarea {
+    width: 100%;
+    padding: 10px 45px 10px 14px;
+    outline: 0;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.input_Contact input::placeholder {
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input_Contact textarea::placeholder {
+    color: black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    margin-left: 95%;
+    color: black;
+}
+
+.buttonSubmit {
+    padding: 15px 0;
+    color: white;
+    margin-top: -5px;
+    background: rgb(161, 119, 88);
+    outline: none;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.icons-button {
+    margin-right: 10px;
+}
+
+.buttonSubmit:hover {
+    background-color: black;
+    color: white;
+}
+/* ********************************************************************* */
+.experienceTop {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.containerEX {
+    position: relative;
+    width: 100%;
+    background: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerEX .star-widget input {
+    display: none;
+}
+
+.star-widget label {
+    font-size: 32px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+.star-widget input:not(:checked)~label:hover,
+.star-widget input:not(:checked)~label:hover~label {
+    color: #fd4;
+}
+
+.star-widget input:checked~label {
+    color: #fd4;
+}
+
+.star-widget input#rate-5:checked~label {
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+
+#rate-1:checked~form header:before {
+    content: "I just hate it 😠";
+}
+
+#rate-2:checked~form header:before {
+    content: "I don't like it 😒";
+}
+
+#rate-3:checked~form header:before {
+    content: "It is awesome 😄 ";
+}
+
+#rate-4:checked~form header:before {
+    content: "I just like it 😎 ";
+}
+
+#rate-5:checked~form header:before {
+    content: "I just love it 😍 ";
+}
+
+.containerEX form {
+    display: none;
+}
+
+input:checked~form {
+    display: block;
+}
+
+form header {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(161, 119, 88);
+    font-weight: 800;
+    margin: 20px 0 30px 0;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.2s ease;
+    background: none;
+}
+
+
+
+
+
+
+
+/* ************************************************************************8 */
+
+@media screen and (max-width:500px) {
+    .contactForm {
+        background-position: center;
+    }
+
+    .titleContact {
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .input_Contact input {
+        width: 90%;
+        margin: auto;
+        padding: 10px 30px 10px 10px;
+    }
+
+    .input_Contact textarea {
+        width: 90%;
+        padding: 10px 30px 10px 10px;
+    }
+
+    .icons {
+        position: absolute;
+        top: 10px;
+        margin-left: 83%;
+        font-size: 12px;
+    }
+
+    .buttonSubmit {
+        padding: 10px 0;
+        width: 60%;
+    }
+
+    .icons-button {
+        margin-right: 10px;
+    }
+
+    .containerEX {
+        position: relative;
+        width: 90%;
+        background: white;
+        padding: 10px 0px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .star-widget label {
+        font-size: 25px;
+        color: #444;
+        padding: 7px;
+        float: right;
+        transition: all 0.2s ease;
+    }
+}

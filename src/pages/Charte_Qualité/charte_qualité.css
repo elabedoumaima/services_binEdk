@@ -1,0 +1,89 @@
+.charte_qualité{
+    max-width: 75%;
+    margin: auto;
+}
+.charte_qualité_Top{
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 40px;
+}
+.charte_qualité_Top h1{
+    font-size: 36px;
+    color: rgb(161, 119, 88);
+    font-family: initial;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.charte_qualité_Top p{
+    font-size: 15px;
+    line-height: 30px;
+    max-width: 85%;
+    margin: auto;
+    font-weight: 600;
+}
+.charte_qualite_second{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+    text-align: justify;
+  
+}
+.charte_qualite_second_1{
+    width: 60%;
+    margin: auto;
+}
+.charte_qualite_second img{
+    height: 80px;
+    width: 80px;
+}
+.charte_qualite_second_2{
+    width: 10px;
+    height: 130px;
+    background: rgb(161, 119, 88);
+    margin-right: 28px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.charte_qualite_second_1 h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(132, 161, 176);
+    font-family: initial;
+}
+.charte_qualite_second_1 p{
+    font-size: 15px;
+    max-width: 80%;
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .charte_qualité{
+        max-width: 95%;
+        margin: auto;
+    }
+    .charte_qualite_second_1{
+        width: 100%;
+        margin: auto;
+    }
+    .charte_qualite_second img{
+        height: 50px;
+        width: 50px;
+    }
+    .charte_qualite_second_1 h3{
+        margin-bottom: 13px;
+    }
+    .charte_qualite_second_1 p{
+        max-width: 90%;
+    }
+    .charte_qualite_second_2{
+        width: 15px;
+        height: 120px;
+        background: rgb(161, 119, 88);
+        margin-right: 23px;
+        margin-left: 23px;
+        margin-top: 10px;
+    }
+
+}
